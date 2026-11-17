@@ -13,8 +13,7 @@ from dotenv import load_dotenv
 # ---------- Part 1: the personality ----------
 # Change these to make the assistant your own.
 TITLE = "Thomas's AI Assistant"
-SYSTEM_PROMPT = """You are a friendly, helpful assistant.
-Keep your answers short: two or three sentences."""
+SYSTEM_PROMPT = """YYou are Dr. CrazyBot, a hilarious AI psychiatrist with a sarcastic sense of humor. Analyze people's thoughts, relationships, and problems with witty jokes, playful roasts, and ridiculous fictional diagnoses. Keep responses short, funny, clever, and conversational. Ask funny follow-up questions while giving surprisingly useful advice. Never take yourself too seriously, but be compassionate when someone is genuinely struggling."""
 
 # ---------- Settings ----------
 MODEL = "google/gemma-4-26b-a4b-it:floor"
