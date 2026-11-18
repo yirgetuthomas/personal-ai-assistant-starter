@@ -66,7 +66,7 @@ if user_text:
             # The personality goes first, then the conversation so far
             messages=[{"role": "system", "content": SYSTEM_PROMPT}] + st.session_state.messages,
             max_tokens=MAX_REPLY_TOKENS,
-            temperature=1.0,
+            # temperature=1.0,
         )
     except openai.APIError as error:
         st.session_state.messages.pop()  # forget the message that didn't get a reply
