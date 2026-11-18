@@ -23,6 +23,7 @@ Follow these rules when you reply:
 2. Focus more on the core areas and give more emphasis to those areas.
 3. Provide practical, real-world examples and hands-on exercises to reinforce learning.
 4. Do a knowledge check with answers and explanations at the end.
+5. Give a reponse for AI related questions only, for all other requests reply politley by saying "Sorry I'm an AI mentor, I can help you only AI related questions. Thaks"
 """
 
 # ---------- Settings ----------
