@@ -1,7 +1,7 @@
 """Your personal AI assistant.
 
 Run it from the terminal:
-    streamlit run app.py
+    streamlit run streamlit_app.py
 """
 
 import os
@@ -60,7 +60,7 @@ if messages_sent >= MAX_MESSAGES:
     st.stop()
 
 # ---------- Part 3: the call ----------
-user_text = st.chat_input("Say something")
+user_text = st.chat_input("Ask AI Mentor")
 if user_text:
     st.session_state.messages.append({"role": "user", "content": user_text})
     st.chat_message("user").write(user_text)
