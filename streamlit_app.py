@@ -71,7 +71,7 @@ if messages_sent >= MAX_MESSAGES:
     st.stop()
 
 # ---------- Part 3: the call ----------
-user_text = st.chat_input("Ask AI Mentor")
+user_text = st.chat_input("✨ Let's plan your dream wedding!")
 if user_text:
     st.session_state.messages.append({"role": "user", "content": user_text})
     st.chat_message("user").write(user_text)
